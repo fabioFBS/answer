@@ -1,0 +1,33 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid beige;
+    width: 50%;
+    margin: auto;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+button{
+    margin: 2rem 1rem ;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+button:hover{
+    opacity: 0.5;
+}
+button:nth-child(1){
+    background-color: green;
+}
+button:nth-child(2){
+    background-color: red;
+}
+
+#text{
+    opacity: 0;
+}
