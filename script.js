@@ -17,7 +17,8 @@ button.addEventListener("mouseenter", function(){
 })
 
 buttonYes.addEventListener("click", function(){
-    text.style.opacity = 1
-    console.log('clicou')
+  text.style.opacity = 1
+setTimeout(function() { window.open("https://www.youtube.com/watch?v=XfqOB4hvxlY", "_blank");
+}, 2000);
 })
 

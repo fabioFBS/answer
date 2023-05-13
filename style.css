@@ -1,33 +1,55 @@
-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid beige;
-    width: 50%;
-    margin: auto;
-}
-
-h1{
-    font-size: 2rem;
-}
-
-button{
-    margin: 2rem 1rem ;
-    padding: 1rem 2rem;
-    border: none;
-    border-radius: 0.5rem;
-}
-button:hover{
-    opacity: 0.5;
-}
-button:nth-child(1){
-    background-color: green;
-}
-button:nth-child(2){
-    background-color: red;
-}
-
-#text{
-    opacity: 0;
-}
+body{
+    color: white !important;
+     background: linear-gradient(45deg, #ff007f, #1d62f0, #7fff00);
+    background-size: 600% 600%;
+    animation: background-animation 10s ease infinite;
+  }
+  
+  section{
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: 1rem solid beige;
+      border-radius: 1rem;
+      width: 50%;
+      margin: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+  
+  }
+  @keyframes background-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  h1{
+      font-size: 2rem;
+  }
+  
+  button{
+      color: white;
+      margin: 2rem 1rem ;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 0.5rem;
+  }
+  button:hover{
+      opacity: 0.5;
+  }
+  button:nth-child(1){
+      background-color: green;
+  }
+  button:nth-child(2){
+      background-color: red;
+  }
+  
+  #text{
+      opacity: 0;
+  }
